@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div>
+            <h1>Conversor de Unidades de Temperatura</h1>
+        </div>
+        <div>
+            <p>Insira um valor e escolha qual sua unidade inicial e para qual unidade sera convertida.</p>
+        </div>
+        <div>
+	        <input type="number" placeholder="Celsius" id="Ctemp"/>
+        </div>
+        <div>
+            <input type="number" placeholder="Farenheit" id="Ftemp"/> 
+        </div>
+        <div>
+            <input type="number" placeholder="Kelvin" id="Ktemp"/>
+        </div>
+        <div>
+            <input type="number" placeholder="Rankine" id="Rtemp"/>
+        </div>
+        <div>
+            <button id="calculo" onclick="calculo()">calcular</button>
+            <button id="limpar" class="container-style">limpar</button>
+        </div>
+
+    </div>
+
+    <script src="conversor.js"></script>
+
+</body>
+</html>
